@@ -4,7 +4,8 @@ public:
         vector<int> ans;
         
         for(int i=0;i<nums.size();i++){
-            ans.push_back(nums[nums[i]]);
+            int a = nums[i];
+            ans.push_back(nums[a]);
         }
        return ans; 
     }
